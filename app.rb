@@ -12,4 +12,8 @@ class App < Sinatra::Base
     @hometown = hometown
     "My hometown is #{@hometown}"
   end
+  get '/favorite-song' do
+    @favorite_song = favorite-song
+    "My favorite song is #{@favorite_song}"
+  end
 end
