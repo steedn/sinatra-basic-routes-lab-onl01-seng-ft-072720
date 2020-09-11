@@ -5,8 +5,8 @@ class App < Sinatra::Base
     "Hello, World!"
   end
   get '/name' do
-  @name = name
-  "My name is #{@name}"
+    @name = name
+    "My name is #{@name}"
   end
   get '/hometown' do
     @hometown = hometown
