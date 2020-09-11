@@ -8,4 +8,8 @@ class App < Sinatra::Base
   @name = name
   "My name is #{@name}"
   end
+  get '/hometown' do
+    @hometown = hometown
+    "My hometown is #{@hometown}"
+  end
 end
